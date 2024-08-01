@@ -1,0 +1,121 @@
+out/generated_no_fcas.o:	file format elf64-x86-64
+
+.debug_line contents:
+debug_line[0x00000000]
+Line table prologue:
+    total_length: 0x0000009c
+          format: DWARF32
+         version: 5
+    address_size: 8
+ seg_select_size: 0
+ prologue_length: 0x0000004a
+ min_inst_length: 1
+max_ops_per_inst: 1
+ default_is_stmt: 1
+       line_base: -5
+      line_range: 14
+     opcode_base: 13
+standard_opcode_lengths[DW_LNS_copy] = 0
+standard_opcode_lengths[DW_LNS_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_advance_line] = 1
+standard_opcode_lengths[DW_LNS_set_file] = 1
+standard_opcode_lengths[DW_LNS_set_column] = 1
+standard_opcode_lengths[DW_LNS_negate_stmt] = 0
+standard_opcode_lengths[DW_LNS_set_basic_block] = 0
+standard_opcode_lengths[DW_LNS_const_add_pc] = 0
+standard_opcode_lengths[DW_LNS_fixed_advance_pc] = 1
+standard_opcode_lengths[DW_LNS_set_prologue_end] = 0
+standard_opcode_lengths[DW_LNS_set_epilogue_begin] = 0
+standard_opcode_lengths[DW_LNS_set_isa] = 1
+include_directories[  0] =  .debug_line_str[0x00000000] = "/tmp/fcas_friendly"
+include_directories[  1] =  .debug_line_str[0x00000035] = "/usr/include/bits"
+include_directories[  2] =  .debug_line_str[0x00000047] = "/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"
+include_directories[  3] =  .debug_line_str[0x00000086] = "/usr/include"
+file_names[  0]:
+           name:  .debug_line_str[0x00000093] = "out/generated.cpp"
+      dir_index: 0
+file_names[  1]:
+           name:  .debug_line_str[0x000000a5] = "types.h"
+      dir_index: 1
+file_names[  2]:
+           name:  .debug_line_str[0x000000ad] = "stdint-intn.h"
+      dir_index: 1
+file_names[  3]:
+           name:  .debug_line_str[0x000000bb] = "cstdint"
+      dir_index: 2
+file_names[  4]:
+           name:  .debug_line_str[0x000000c3] = "stdint.h"
+      dir_index: 3
+file_names[  5]:
+           name:  .debug_line_str[0x000000cc] = "stdint-uintn.h"
+      dir_index: 1
+
+            Address            Line   Column File   ISA Discriminator OpIndex Flags
+            ------------------ ------ ------ ------ --- ------------- ------- -------------
+0x00000056: 04 DW_LNS_set_file (0)
+0x00000058: 00 DW_LNE_set_address (0x0000000000000000)
+0x00000063: 17 address += 0,  line += 5,  op-index += 0
+            0x0000000000000000      6      0      0   0             0       0  is_stmt
+0x00000064: 05 DW_LNS_set_column (7)
+0x00000066: 0a DW_LNS_set_prologue_end
+0x00000067: a0 address += 10,  line += 2,  op-index += 0
+            0x000000000000000a      8      7      0   0             0       0  is_stmt prologue_end
+0x00000068: 3d address += 3,  line += 1,  op-index += 0
+            0x000000000000000d      9      7      0   0             0       0  is_stmt
+0x00000069: 4c address += 4,  line += 2,  op-index += 0
+            0x0000000000000011     11      7      0   0             0       0  is_stmt
+0x0000006a: 05 DW_LNS_set_column (5)
+0x0000006c: 0b DW_LNS_set_epilogue_begin
+0x0000006d: 38 address += 3,  line += -4,  op-index += 0
+            0x0000000000000014      7      5      0   0             0       0  is_stmt epilogue_begin
+0x0000006e: 05 DW_LNS_set_column (0)
+0x00000070: 03 DW_LNS_advance_line (18)
+0x00000072: ba address += 12,  line += 0,  op-index += 0
+            0x0000000000000020     18      0      0   0             0       0  is_stmt
+0x00000073: 05 DW_LNS_set_column (7)
+0x00000075: 0a DW_LNS_set_prologue_end
+0x00000076: a0 address += 10,  line += 2,  op-index += 0
+            0x000000000000002a     20      7      0   0             0       0  is_stmt prologue_end
+0x00000077: 3d address += 3,  line += 1,  op-index += 0
+            0x000000000000002d     21      7      0   0             0       0  is_stmt
+0x00000078: 4c address += 4,  line += 2,  op-index += 0
+            0x0000000000000031     23      7      0   0             0       0  is_stmt
+0x00000079: 05 DW_LNS_set_column (5)
+0x0000007b: 0b DW_LNS_set_epilogue_begin
+0x0000007c: 38 address += 3,  line += -4,  op-index += 0
+            0x0000000000000034     19      5      0   0             0       0  is_stmt epilogue_begin
+0x0000007d: 05 DW_LNS_set_column (0)
+0x0000007f: 03 DW_LNS_advance_line (30)
+0x00000081: ba address += 12,  line += 0,  op-index += 0
+            0x0000000000000040     30      0      0   0             0       0  is_stmt
+0x00000082: 05 DW_LNS_set_column (7)
+0x00000084: 0a DW_LNS_set_prologue_end
+0x00000085: a0 address += 10,  line += 2,  op-index += 0
+            0x000000000000004a     32      7      0   0             0       0  is_stmt prologue_end
+0x00000086: 3d address += 3,  line += 1,  op-index += 0
+            0x000000000000004d     33      7      0   0             0       0  is_stmt
+0x00000087: 4c address += 4,  line += 2,  op-index += 0
+            0x0000000000000051     35      7      0   0             0       0  is_stmt
+0x00000088: 05 DW_LNS_set_column (5)
+0x0000008a: 0b DW_LNS_set_epilogue_begin
+0x0000008b: 38 address += 3,  line += -4,  op-index += 0
+            0x0000000000000054     31      5      0   0             0       0  is_stmt epilogue_begin
+0x0000008c: 05 DW_LNS_set_column (0)
+0x0000008e: 03 DW_LNS_advance_line (42)
+0x00000090: ba address += 12,  line += 0,  op-index += 0
+            0x0000000000000060     42      0      0   0             0       0  is_stmt
+0x00000091: 05 DW_LNS_set_column (7)
+0x00000093: 0a DW_LNS_set_prologue_end
+0x00000094: a0 address += 10,  line += 2,  op-index += 0
+            0x000000000000006a     44      7      0   0             0       0  is_stmt prologue_end
+0x00000095: 3d address += 3,  line += 1,  op-index += 0
+            0x000000000000006d     45      7      0   0             0       0  is_stmt
+0x00000096: 4c address += 4,  line += 2,  op-index += 0
+            0x0000000000000071     47      7      0   0             0       0  is_stmt
+0x00000097: 05 DW_LNS_set_column (5)
+0x00000099: 0b DW_LNS_set_epilogue_begin
+0x0000009a: 38 address += 3,  line += -4,  op-index += 0
+            0x0000000000000074     43      5      0   0             0       0  is_stmt epilogue_begin
+0x0000009b: 02 DW_LNS_advance_pc (addr += 2, op-index += 0)
+0x0000009d: 00 DW_LNE_end_sequence
+            0x0000000000000076     43      5      0   0             0       0  is_stmt end_sequence
